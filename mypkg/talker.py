@@ -1,5 +1,5 @@
 import rclpy
-from relpy.node import Node
+from rclpy.node import Node
 from std_msgs.msg import Int16
 
 relpy.init()
