@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='cassilas',
-    maintainer_email='kumikoren@jcom.zaq.ne.jp',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Ren Imai',
+    maintainer_email='s22c1012rt@s.chiabkoudai.jp',
+    description='a package for practice',
+    license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
