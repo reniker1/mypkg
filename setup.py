@@ -1,3 +1,5 @@
+import os
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'mypkg'
@@ -10,11 +12,12 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name), glob('launch/*.launch.py')) 
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='Ren Imai',
-    maintainer_email='s22c1012rt@s.chiabkoudai.jp',
+    maintainer_email='s22c1012@s.chibakoudai.jp',
     description='a package for practice',
     license='BSD-3-Clause',
     tests_require=['pytest'],
@@ -24,5 +27,5 @@ setup(
             'listener = mypkg.listener:main',
         ],
     },
-)
+)A
 
