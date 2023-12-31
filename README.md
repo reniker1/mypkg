@@ -52,5 +52,5 @@ talkerが0.5秒ごとにカウントした整数をlistenerが受け取り表示
 
   * [ryuichiueda.github.io/my_slides/robosys_2022](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/22)
  
-* © 2023 Ren Imai
+* © 2024 Ren Imai
 
