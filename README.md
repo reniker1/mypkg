@@ -9,17 +9,18 @@ talkerが0.5秒ごとにカウントした整数をlistenerが受け取り表示
 
 * ROS2
 
-## 利用手順
+## ノードの説明
 
-* 自身のターミナルに
-```
- git clone https://github.com/reniker1/mypkg.git
-```
-を入力
+### 機能
 
-* ```mypkg``` があることを確認
+#### talker
+* 数字をカウントしてトピック/countupを通じて送信
 
-* ```mypkg```のリポジトリで実行
+#### listener
+* トピック/countupからメッセージをもらって表示
+
+## トピックの説明
+* Int16型のメッセージをtalkerから受け取りlistenerにつなぐ
 
 ## 実行方法
 
